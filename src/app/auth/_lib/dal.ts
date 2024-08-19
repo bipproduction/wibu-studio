@@ -1,5 +1,5 @@
 import "server-only";
-import { decrypt } from "@/lib/session";
+import { decrypt } from "@/app/auth/_lib/session";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { cache } from "react";

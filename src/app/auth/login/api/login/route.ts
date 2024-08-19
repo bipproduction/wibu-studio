@@ -1,5 +1,5 @@
-import prisma from "@/lib/prisma";
-import { createSession } from "@/lib/session";
+import prisma from "@/app/auth/_lib/prisma";
+import { createSession } from "@/app/auth/_lib/session";
 import bcrypt from "bcrypt";
 export async function POST(req: Request) {
   const { email, password } = (await req.json()) as any;

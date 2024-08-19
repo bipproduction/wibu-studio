@@ -1,6 +1,6 @@
-import { SignupFormSchema } from "@/lib/definitions";
-import prisma from "@/lib/prisma";
-import { createSession } from "@/lib/session";
+import { SignupFormSchema } from "@/app/auth/_lib/definitions";
+import prisma from "@/app/auth/_lib/prisma";
+import { createSession } from "@/app/auth/_lib/session";
 import bcrypt from "bcrypt";
 
 export async function signup(fomData: any) {

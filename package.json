@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "bin": {
+    "gen": "npx tsx bin/gen.ts"
+  },
   "dependencies": {
     "@mantine/core": "^7.12.1",
     "@mantine/hooks": "^7.12.1",
