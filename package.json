@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "bin": {
-    "gen": "bin/gen.ts"
+    "gen": "./bin/gen.js"
   },
   "dependencies": {
     "@mantine/core": "^7.12.1",
