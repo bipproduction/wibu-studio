@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "bin": {
-    "gen": "npx tsx bin/gen.ts"
+    "gen": "bin/gen.ts"
   },
   "dependencies": {
     "@mantine/core": "^7.12.1",
